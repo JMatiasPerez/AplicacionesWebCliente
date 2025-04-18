@@ -4,3 +4,35 @@
    background-color: rgb(233, 230, 230); 
 }
 
+header{
+    border: 1px solid black;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 249, 249);
+}
+.header-container-flex{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: inherit;
+}
+
+.header-container-flex ul{
+    display: flex;
+    list-style: none;
+    background-color: inherit;
+}
+.header-container-flex ul li{
+    margin:0px 10px;
+    background-color: inherit;
+}
+.header-container-flex ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: inherit;
+}
