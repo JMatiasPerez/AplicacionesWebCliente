@@ -9,43 +9,66 @@
 </head>
 <body>
     <header>
-        <h1 class="header-h1">Proyecto Aplicaciones Web Clientes</h1>
+        <h1 class="header-h1">*15% off pago en transferencia*</h1>
         <nav>
             <div class="nav-logobar">
                 <img src="../Proyecto WebCliente/img/logo/logo-infinit.webp" alt="Logo de la empresa">
             </div>
             <ul>
                 <li><a href="">Inicio</a></li>
-                <li><a href="">Cátalogo</a></li>
+                <li><a href="">Anteojos de sol</a></li>
+                <li><a href="">Coleccion Essensials</a></li>
+                <li><a href="">Marcos de anteojos</a></li>
+                <li><a href="">Ediciones especiales</a></li>
                 <li><a href="">Contacto</a></li>
+                <div class="navbar-icons">
+                    <img src="img/icons/user-icon.png" alt="Iniciar sesión">
+                    <img src="img/icons/lupa-icon.png" alt="Buscador" id="lupa-icon" onclick="EstadoLupa(), boton()">
+                    <img src="img/icons/cart-icon.png" alt="carrito de compras">    
+                </div>
             </ul>
-            <div class="nav-bar-icons-search">
-                <form action="" method="get"></form>
-                <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
-                <button type="submit">Buscar</button>
-                
-                <img src="img/icons/user-icon.png" alt="Iniciar sesión">
-                <img src="img/icons/cart-icon.png" alt="carrito de compras">    
+            <div class="navbar-form">
+                <form action="/AplicacionesWebCliente/Proyecto WebCliente/index.html" method="get">
+                    <input type="text" name="buscador" id="buscador" placeholder="Buscar..." maxlength="40">
+                    <!-- <button id="boton" type="submit">Buscar</button>  Se saco el boton por un tema de estilo-->
+                </form>
+                <h2></h2>
             </div>
         </nav>
     </header>
-    
+    <div >
+        <img src="" alt="">
+    </div>
     <main>
         <div class="main-catalogo-productos">   
-            <img src="" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur</p>
+            <img src="img/Productos/Alaska_blueM.webp" alt="">
+            <p>Anteojo de sol</p>
             <button>Agregar al carrito</button>
         </div>
 
-        <div>   
-            <img src="" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur</p>
+        <div class="main-catalogo-productos">   
+            <img src="img/Productos/Alaska_brn.webp" alt="">
+            <p>Anteojo de sol</p>
             <button>Agregar al carrito</button>
         </div>
-
-        <div>   
+        <div class="main-catalogo-productos">   
+            <img src="img/Productos/Alaska_g15.webp" alt="">
+            <p>Anteojo de sol</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="main-catalogo-productos">   
             <img src="" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur</p>
+            <p>Anteojo de sol</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="main-catalogo-productos">   
+            <img src="" alt="">
+            <p>Anteojo de sol</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="main-catalogo-productos">   
+            <img src="" alt="">
+            <p>Anteojo de sol</p>
             <button>Agregar al carrito</button>
         </div>
     </main>
@@ -55,4 +78,5 @@
         </div>
     </footer>
 </body>
+<script src="js/efecto-lupa.js"></script>
 </html>
