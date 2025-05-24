@@ -67,7 +67,7 @@ const productos = [
         descripcion:"Estuche Para Anteojos Forma De Lingote Dorado"
     },
     {
-         name: "Liquido Limpia Cristales",
+        name: "Liquido Limpia Cristales",
         precio: "20.000",
         img: "img/Productos/Liquido.webp",
         descripcion:"Liquido Limpia Cristales"
@@ -75,6 +75,7 @@ const productos = [
 ];
 
 const grid = document.querySelector('section');
+const searchInput = document.querySelector('#buscador'); 
 
 function ProductCard(productos) {
     const card = document.createElement('article');
@@ -102,7 +103,28 @@ button.textContent = 'Agregar al carrito';
 
 };
 
-productos.forEach(producto => {
-    const card = ProductCard(producto);
-    grid.appendChild(card);
-}  );
+function renderizarProductos(productos) {
+    
+    productos.forEach(producto => {
+        const card = ProductCard(producto);
+        grid.appendChild(card);
+    }  );
+    
+}
+
+renderizarProductos(productos);
+
+/*  */
+
+function filtrarProductos(text) {
+
+    const filtrado = productos.filter(producto => {
+        return producto.name.toLowerCase().includes(text.toLowerCase());
+    });
+    grid.innerHTML = '';
+    renderizarProductos(filtrado);
+
+}
+searchInput.addEventListener('input', (e) => 
+    filtrarProductos(e.target.value)
+);

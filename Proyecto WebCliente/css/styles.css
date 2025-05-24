@@ -11,7 +11,7 @@
 }
 header{
     overflow: hidden;
-    /* position: fixed;  averiguar porque al poner fixed se me superpone el header y el main (pendiente)*/
+    position: fixed;
     width: 100%;
     height: 210px;
 
