@@ -43,7 +43,7 @@ nav{
     }
     ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
         box-shadow: 0 4px 2px -2px gray;
     }
@@ -135,7 +135,7 @@ nav{
 
 /* Estilos para el Main de la página */
 /* La idea es que no tenga un boton para agregar al carrito si no que al hacer click en la foto se habra una ventana donde deje ver el producto con sus especificaciones ademas de los colores, por el momento queda con el boton*/
-main{
+main section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
@@ -156,6 +156,12 @@ main{
             }
             p{
                 font-size: 22px;
+                text-align: center;
+                margin: 10px 0px 0px 0px;
+                font-family: "Zurich Extended", sans-serif;
+            }
+            h3{
+                font-size: 15px;
                 text-align: center;
                 margin: 10px 0px 0px 0px;
                 font-family: "Zurich Extended", sans-serif;
