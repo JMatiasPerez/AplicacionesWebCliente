@@ -24,4 +24,7 @@ header{
 .banner-promo p {
     font-size: 30px;
     font-weight: bold;
+    font-family:'Quicksand' sans-serif;
+    color:#000;
+    letter-spacing: 0.5px;
 }
