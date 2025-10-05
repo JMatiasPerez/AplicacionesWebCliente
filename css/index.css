@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 255, 250);
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    border: 1px solid black;
+}
+.banner-promo {
+    width: auto;
+    height: 60px;
+    background-color:rgb(63, 191, 78, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-promo p {
+    font-size: 30px;
+    font-weight: bold;
+}
