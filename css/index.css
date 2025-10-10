@@ -11,20 +11,68 @@ body {
 header{
     width: 100%;
     height: 110px;
-    border: 1px solid black;
 }
 .banner-promo {
     width: auto;
-    height: 60px;
+    height: 40px;
     background-color:rgb(63, 191, 78, 1);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.banner-promo p {
-    font-size: 30px;
+.banner-promo h1 {
+    font-size: 20px;
     font-weight: bold;
     font-family:'Quicksand' sans-serif;
     color:#000;
-    letter-spacing: 0.5px;
+}
+nav {
+    width:100%;
+    height: 70px;
+    border: 1px solid black;
+}
+.logo-principal {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+.logo-principal img {
+    width: 60px;
+}
+.nav-navegador {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.nav-links {
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav-links  li{
+    list-style: none;
+    width: auto;
+    height: auto;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-iconos{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-iconos li{
+    list-style: none;
 }
