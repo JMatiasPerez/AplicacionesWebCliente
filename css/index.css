@@ -10,31 +10,32 @@ body {
 
 header{
     width: 100%;
-    height: 110px;
+    height: 120px;
 }
 .banner-promo {
     width: auto;
-    height: 40px;
-    background-color:rgb(63, 191, 78, 1);
+    height: 50px;
+    background-color:rgb(57, 155, 102);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .banner-promo h1 {
-    font-size: 20px;
-    font-weight: bold;
-    font-family:'Quicksand' sans-serif;
-    color:#000;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Archivo', sans-serif;
+    color:#ffffff;
+    
 }
 nav {
     width:100%;
     height: 70px;
-    border: 1px solid black;
 }
 .logo-principal {
     width: 100%;
-    height: 40%;
+    height: 50%;
     display: flex;
+
     justify-content: center;
 
 }
@@ -62,7 +63,7 @@ nav {
 .nav-links li a{
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Archivo' , sans-serif;
     color: black;
     font-weight: bold;
 }
@@ -75,4 +76,16 @@ nav {
 }
 .nav-iconos li{
     list-style: none;
+}
+
+.img-principal{
+    width: 100%;
+    height: auto;
+}
+.img-principal img{
+    width: 100%;
+    height: auto;
+    max-height:850px;
+    display: block;
+    object-fit: cover;
 }
